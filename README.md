@@ -10,3 +10,5 @@ Other features added:
 - formatting
 - ollama intrgration
 - ui changes
+
+### `npm start`
