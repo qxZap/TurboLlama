@@ -1,5 +1,12 @@
 # Turbo Llama
 
-Based on [https://www.sitepoint.com/build-chatgpt-clone-react-openai-api/](https://www.sitepoint.com/build-chatgpt-clone-react-openai-api/)
+React Based webapp that hooks to ollama when ran locally and provides a chatbot interface 
 
-But with smooth scroll and integration with ollama from local run
+Based on tutorial from: [https://www.sitepoint.com/build-chatgpt-clone-react-openai-api/](https://www.sitepoint.com/build-chatgpt-clone-react-openai-api/)
+
+Other features added:
+
+- history
+- formatting
+- ollama intrgration
+- ui changes
