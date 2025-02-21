@@ -23,10 +23,10 @@ export default function App() {
 
     setMessages([...messages, prompt]);
 
-    await fetch("http://localhost:11434/v1/chat/completions", {
+    await fetch("http://localhost:8000/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ model: "mistral", messages: [...messages, prompt] }),
+      body: JSON.stringify({messages: [...messages, prompt] }),
     })
       .then((data) => data.json())
       .then((data) => {
